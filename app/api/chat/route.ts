@@ -5,7 +5,7 @@ const LANGFLOW_ID = "7e084384-03af-44c8-926d-b906e0c278f9";
 const APPLICATION_TOKEN = process.env.APPLICATION_TOKEN;
 const ENDPOINT = "propulseai";
 
-constTWEAKS = {
+const TWEAKS = {
   "ChatInput-COhmd": {},
   "Prompt-x4Bpu": {},
   "ChatOutput-GCXl3": {},
