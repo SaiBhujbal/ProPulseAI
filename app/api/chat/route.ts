@@ -5,20 +5,15 @@ const LANGFLOW_ID = "7e084384-03af-44c8-926d-b906e0c278f9";
 const APPLICATION_TOKEN = process.env.APPLICATION_TOKEN;
 const ENDPOINT = "propulseai";
 
-const TWEAKS = {
-  "ChatInput-NEjMF": {},
-  "Prompt-Gp5El": {},
-  "ChatOutput-ZZYWJ": {},
-  "AstraDBChatMemory-jQY63": {},
-  "Memory-vc7xr": {},
-  "StoreMessage-cK14r": {},
-  "TavilyAISearch-ZSM2N": {},
-  "Agent-88rOo": {},
-  "File-N3ezi": {},
-  "SplitText-eJp4a": {},
-  "AstraDB-tBE0t": {},
-  "AstraDB-U2ZmI": {},
-  "ParseData-VCfLH": {},
+constTWEAKS = {
+  "ChatInput-COhmd": {},
+  "Prompt-x4Bpu": {},
+  "ChatOutput-GCXl3": {},
+  "Memory-lA7Uk": {},
+  "StoreMessage-0LSJ6": {},
+  "TavilyAISearch-0JHw4": {},
+  "Agent-dtILa": {},
+  "AstraDBChatMemory-8MOIL": {}
 };
 
 export const dynamic = "force-dynamic"; // Ensure the route is treated as dynamic
