@@ -23,7 +23,7 @@ const TWEAKS = {
 
 export const dynamic = "force-dynamic"; // Ensure the route is treated as dynamic
 
-export async function POST(req: NextRequest) {
+export async function POST(req: NextRequest): Promise<NextResponse> {
   try {
     // Parse the request JSON
     const { message } = await req.json();
