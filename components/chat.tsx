@@ -95,7 +95,7 @@ export default function Chat() {
                     remarkPlugins={[remarkGfm]}
                     rehypePlugins={[rehypeRaw]}
                     components={{
-                      code({node, inline, className, children, ...props}) {
+                      code({ node, inline, className, children, ...props }: { node?: any; inline?: boolean; className?: string; children?: React.ReactNode }) {
                         const match = /language-(\w+)/.exec(className || '')
                         return inline ? (
                           <code className="bg-gray-800 rounded px-1 py-0.5" {...props}>
