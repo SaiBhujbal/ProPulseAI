@@ -6,14 +6,7 @@ const APPLICATION_TOKEN = process.env.APPLICATION_TOKEN;
 const ENDPOINT = "propulseai";
 
 const TWEAKS = {
-  "ChatInput-COhmd": {},
-  "Prompt-x4Bpu": {},
-  "ChatOutput-GCXl3": {},
-  "Memory-lA7Uk": {},
-  "StoreMessage-0LSJ6": {},
-  "TavilyAISearch-0JHw4": {},
-  "Agent-dtILa": {},
-  "AstraDBChatMemory-8MOIL": {}
+  "ChatInput-COhmd": {}
 };
 
 export const dynamic = "force-dynamic"; // Ensure the route is treated as dynamic
@@ -29,7 +22,6 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
       input_value: message,
       output_type: "chat",
       input_type: "chat",
-      tweaks: TWEAKS,
     };
 
     // Make the API call
