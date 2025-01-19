@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextResponse, NextRequest } from "next/server";
 
 const BASE_API_URL = "https://api.langflow.astra.datastax.com";
 const LANGFLOW_ID = "7e084384-03af-44c8-926d-b906e0c278f9";
@@ -23,7 +23,7 @@ const TWEAKS = {
 
 export const dynamic = "force-dynamic"; // Ensure the route is treated as dynamic
 
-export async function POST(req) {
+export async function POST(req: NextRequest) {
   try {
     // Parse the request JSON
     const { message } = await req.json();
