@@ -3,7 +3,7 @@ import { NextResponse, NextRequest } from "next/server";
 const BASE_API_URL = "https://api.langflow.astra.datastax.com";
 const LANGFLOW_ID = "7e084384-03af-44c8-926d-b906e0c278f9";
 const APPLICATION_TOKEN = process.env.APPLICATION_TOKEN;
-const ENDPOINT = "propulseai";
+const ENDPOINT = "propulseai-1";
 
 const TWEAKS = {
   "ChatInput-COhmd": {}
