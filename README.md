@@ -101,8 +101,8 @@ Below is a high-level summary of what this pipeline does:
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/YourUsername/langflow-rag-chat.git
-   cd langflow-rag-chat
+   git clone https://[github.com/SaiBhujbal/ProPulseAI.git](https://github.com/SaiBhujbal/ProPulseAI/)
+   cd ProPulseAI
    ```
 
 2. **Install LangFlow**  
